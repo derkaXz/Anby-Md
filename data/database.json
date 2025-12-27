@@ -1,0 +1,44 @@
+{
+  "users": {
+    "14642281730220@lid": {
+      "Owner": true,
+      "isBanned": false,
+      "Premium": true,
+      "hitcmd": 10
+    },
+    "94601536868531@lid": {
+      "Owner": true,
+      "isBanned": false,
+      "Premium": true,
+      "hitcmd": 20
+    }
+  },
+  "chats": {
+    "120363421340663690@g.us": {
+      "mute": false,
+      "group_participants": false,
+      "welcome": "Welcome @user ke @group, moga betah ya !",
+      "goodbye": "@user telah keluar dari @group",
+      "demote": "@user anda bukan admin lagi 😹",
+      "promote": "@user sekarang telah menjadi admin di @group 🔥"
+    },
+    "120363406275953228@g.us": {
+      "mute": false,
+      "group_participants": false,
+      "welcome": "Welcome @user ke @group, moga betah ya !",
+      "goodbye": "@user telah keluar dari @group",
+      "demote": "@user anda bukan admin lagi 😹",
+      "promote": "@user sekarang telah menjadi admin di @group 🔥"
+    }
+  },
+  "database": {},
+  "game": {},
+  "settings": {
+    "14642281730220@lid": {
+      "autoread": false,
+      "prefix": "."
+    }
+  },
+  "others": {},
+  "sticker": {}
+}

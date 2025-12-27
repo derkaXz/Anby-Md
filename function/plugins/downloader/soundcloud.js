@@ -1,0 +1,26 @@
+import {
+    soundcloud
+} from 'btch-downloader';
+
+export default {
+    id: 'soundcloud',
+    run: async ({
+        client,
+        m,
+        args,
+        command
+    }) => {
+        if (!args[0]) return m.reply(`Example: .${command} (link)`)
+
+        const res = await soundcloud(args[0])
+
+        await client.sendImage(m.chat, res.result.thumbnail, res.result.title)
+        await client.sendMessage(m.chat, {
+            audio: {
+                url: res.result.audio
+            },
+            fileName: `kvygfchh-soundcloud.mp3`,
+            mimetype: 'audio/mp4'
+        })
+    }
+}
